@@ -16,7 +16,7 @@
 * method : post
 
 
-##board
+## board
 ### list 
 * url : /board/page/{no}
 * method : get
