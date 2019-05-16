@@ -16,7 +16,7 @@ class BoardController extends Controller
 
 		$limit = ($page - 1) * 5;
 
-		$statement = $this->c->db->prepare("SELECT * FROM board WHERE no != '' limit {$limit}, {$list}");
+		$statement = $this->c->db->prepare("SELECT no, subject FROM board WHERE no != '' limit {$limit}, {$list}");
 		$statement ->execute();
 		$row = $statement->fetchAll(PDO::FETCH_ASSOC);
 
