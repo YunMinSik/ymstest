@@ -1,6 +1,6 @@
 # Yun Min Sik 
 
-2019-05-15 coding test
+coding test
 
 ## user
 ### join 
